@@ -2,6 +2,7 @@
 
 namespace Sunnysideup\Dropdown2Autocomplete\Forms;
 
+use Override;
 use SilverStripe\Forms\ListboxField;
 use SilverStripe\View\Requirements;
 
@@ -41,6 +42,7 @@ class Listbox2AutocompleteField extends ListboxField
      *
      * @return string
      */
+    #[Override]
     public function Field($parameters = [])
     {
         $field = parent::Field($parameters);
