@@ -1,4 +1,5 @@
-SilverStripe\ORM\DatabaseAdmin:
+
+SilverStripe\Dev\DbBuild:
   classname_value_remapping:
     GroupedDropdown2AutocompleteField: Sunnysideup\Dropdown2Autocomplete\Forms\GroupedDropdown2AutocompleteField
     Listbox2AutocompleteField: Sunnysideup\Dropdown2Autocomplete\Forms\Listbox2AutocompleteField

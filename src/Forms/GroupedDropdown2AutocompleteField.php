@@ -2,6 +2,7 @@
 
 namespace Sunnysideup\Dropdown2Autocomplete\Forms;
 
+use Override;
 use SilverStripe\Forms\DropdownField;
 use SilverStripe\View\Requirements;
 
@@ -41,6 +42,7 @@ class GroupedDropdown2AutocompleteField extends DropdownField
      *
      * @return string
      */
+    #[Override]
     public function Field($parameters = [])
     {
         $field = parent::Field($parameters);
